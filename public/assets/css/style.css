@@ -1,0 +1,29 @@
+/* GLOBAL SETTINGS */
+/* ==================================================== */
+
+body { 
+    background-image: url("../img/eat2.png");
+    background-size: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(255, 196, 0);
+    font-family: 'Luckiest Guy', cursive;
+    overflow-x: hidden; /* keep all of the content within the browser window */ 
+}
+
+/* SPECIFIC SETTINGS */
+/* ==================================================== */
+
+[class*="col-"] {
+    padding: 1rem;
+  }
+
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.eaten {
+    width: 150px;
+}
